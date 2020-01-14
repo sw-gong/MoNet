@@ -1,0 +1,6 @@
+__pycache__/
+**/out/
+*.pyc
+data/
+INPUT.md
+results.txt
