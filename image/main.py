@@ -22,7 +22,7 @@ parser.add_argument('--lr_decay', type=float, default=0.99)
 parser.add_argument('--decay_step', type=int, default=1)
 parser.add_argument('--weight_decay', type=float, default=5e-4)
 parser.add_argument('--batch_size', type=int, default=64)
-parser.add_argument('--epochs', type=int, default=500)
+parser.add_argument('--epochs', type=int, default=300)
 parser.add_argument('--seed', type=int, default=1)
 args = parser.parse_args()
 
